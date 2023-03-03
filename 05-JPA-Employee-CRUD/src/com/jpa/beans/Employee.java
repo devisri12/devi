@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "EMP_RECORD")
+@Table(name = "EMP_RECORD") ///git
 public class Employee implements Serializable {
 
 	@Id
